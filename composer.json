@@ -1,0 +1,17 @@
+{
+    "name": "neoan3/transformerUserModel",
+    "description": "user model using transfomer app",
+    "minimum-stability": "dev",
+    "require": {
+        "mnsami/composer-custom-directory-installer": "1.1.*",
+        "neoan3-apps/transformer": "dev-master"
+    },
+    "license": "MIT",
+    "extra": {
+        "installer-paths": {
+            "./frame/{$name}": [],
+            "./model/{$name}": [],
+            "./component/{$name}": []
+        }
+    }
+}
